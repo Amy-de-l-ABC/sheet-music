@@ -17,8 +17,8 @@ music = \relative c' {
   % Music:
   e8 d e4 e8 d c b |
   a g a2 b8 c |
-  b4 b8 a b16 a g8~g f16 e ~ |
-  (e d c8 ~ c2) r8 c16 b |
+  b4 b8 a b16 a g8~g f16 (e ~ |
+  e d c8 ~ c2) r8 c16 b |
 }
 \score {
   \new Staff {
