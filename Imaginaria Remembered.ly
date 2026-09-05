@@ -9,6 +9,7 @@ music = \relative c' {
   \clef "treble_8"
   \key c \major
   \time 4/4
+  \tempo 4 = 70
   \partial 4
 
   % Pickup note goes here:
@@ -22,7 +23,7 @@ music = \relative c' {
   a8 b c d c4 r8 c16 a |
   g8 c c d e4 r |
   e8 d ~ d d d c b c |
-  d2 r4 a8' b |
+  d2 r4 a'8 b |
 }
 \score {
   \new Staff {
@@ -35,10 +36,11 @@ music = \relative c' {
   place that's far from home*
   where you're tucked in* safe and warm, 
   Dream -- ing of (mem -- o -- ries?) (?)
-  (?) {similar}
+  (?) [similar]
   }
 }
 
 
   \layout { }
+  \midi { }
 }
