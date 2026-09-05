@@ -13,7 +13,7 @@ music = \relative c' {
   \partial 4
 
   % Pickup note goes here:
-  c8 d8 |
+  c'8 d8 |
 
   % Music:
   e8 d e4 e8 d c b |
