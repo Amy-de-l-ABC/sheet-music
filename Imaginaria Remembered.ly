@@ -19,6 +19,10 @@ music = \relative c' {
   a g a2 b8 c |
   b4 b8 a b16 a g8~g f16 e ~( |
   e d c8 ~ c2) r8 c16 b |
+  a8 b c d c4 r8 c16 a |
+  g8 c c d e4 r |
+  e8 d ~ d d d c b c |
+  d2 r4 a8' b |
 }
 \score {
   \new Staff {
@@ -28,6 +32,10 @@ music = \relative c' {
   na -- ri -- a, where* you
   leave all the ga -- la -- xies* be -- hind?____
   To a
+  place that's far from home*
+  where you're tucked in* safe and warm, 
+  Dream -- ing of (mem -- o -- ries?) (?)
+  (?) {similar}
   }
 }
 
