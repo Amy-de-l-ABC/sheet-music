@@ -17,7 +17,7 @@ music = \relative c' {
   % Music:
   e8 d e4 e8 d c b |
   a g a2 b8 c |
-  b4 b8 a b16 a g8~g f16 (e ~ |
+  b4 b8 a b16 a g8~g f16 e ~( |
   e d c8 ~ c2) r8 c16 b |
 }
 \score {
@@ -26,12 +26,11 @@ music = \relative c' {
     \addlyrics {
   Won't you come with us* to I -- ma -- gi --
   na -- ri -- a, where* you
-  leave all the ga -- la -- xies* be -- hind?
+  leave all the ga -- la -- xies* be -- hind?____
   To a
   }
 }
 
-  }
 
   \layout { }
 }
