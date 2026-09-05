@@ -26,7 +26,7 @@ music = \relative c' {
     \addlyrics {
   Won't you come with us* to I -- ma -- gi --
   na -- ri -- a, where* you
-  leave all the ga -- la -- xies* be -- hind?
+  leave all the ga -- la -- xies* be -- hind?____
   To a
   }
 }
