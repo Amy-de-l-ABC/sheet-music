@@ -17,17 +17,15 @@ music = \relative c' {
   % Music:
   e8 d e4 e8 d c b |
   a g a2 b8 c |
-
-
-  \addlyrics {
-  Won't you come with us* to I -- ma -- gi --
-  na -- ri -- a, where* you
-  }
 }
 
 \score {
   \new Staff {
     \music
+    \addlyrics {
+      Won't* you come with us* to I -- ma -- gi --
+      na -- ri -- a, where* you
+    }
   }
 
   \layout { }
