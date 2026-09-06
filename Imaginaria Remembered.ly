@@ -16,22 +16,32 @@ music = \relative c' {
   c'8 d8 |
 
   % Music:
+  % come with us
   e8 d e4 e8 d c b |
   a g a2 b8 c |
+  % leave
   b4 b8 a b16 a g8~g f16 e ~( |
   e d c8 ~ c2) r8 c16 b |
+  % place
   a8 b c d c4 r8 c16 a |
   g8 c c d e4 r |
+  % Dream
   e8 d ~ d d d c b c |
   d2 r4 a'8 b |
-  a8 b c b c4 c b a g |
+  % come
+  c b c4 c b a g |
   b c a2 b8 c |
+  % leave
   b4 b8 a b16 a g8 ~ g f16 e ~ ( |
   e d c8 ~ c2) r8 c16 b |
+  % place
   a8 b c d c4 r8 c16 a |
   g8 c c d e4 r |
+  % Dream
   e8 d ~ d d d c b c |
+  % high
   d1 ~ d4 c c b |
+  % fly
   c1 ~ |
   c
 }
