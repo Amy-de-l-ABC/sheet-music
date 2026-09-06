@@ -24,6 +24,16 @@ music = \relative c' {
   g8 c c d e4 r |
   e8 d ~ d d d c b c |
   d2 r4 a'8 b |
+  a8 b c b c4 c b a g |
+  b c a2 b8 c |
+  b4 b8 a b16 a g8 ~ g f16 e ~ ( |
+  e d c8 ~ c2) r8 c16 b |
+  a8 b c d c4 r8 c16 a |
+  g8 c c d e4 r |
+  e8 d ~ d d d c b c |
+  d1 ~ d4 c c b |
+  c1 ~ |
+  c
 }
 \score {
   \new Staff {
@@ -37,6 +47,14 @@ music = \relative c' {
   where you're tucked in* safe and warm, 
   Dream -- ing of (mem -- o -- ries?) (?)
   (?) [similar]
+  
+  % 6 measures instrumental / no lyrics
+  \skip 1*6
+  
+  Dream -- ing of sail -- ing ships so
+  high 
+  that you can
+  fly?
   }
 }
 
