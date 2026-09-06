@@ -31,7 +31,7 @@ music = \relative c' {
   % Dream
   e8 d ~ d d d c b c |
   %d2 r4 a'8 b |
-  d2 r4 c8 d8 |
+  d2 r4 c'8 d8 |
 
   % come
   e8 d e4 e8 d c b |
