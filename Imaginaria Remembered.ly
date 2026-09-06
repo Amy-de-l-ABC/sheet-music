@@ -29,7 +29,7 @@ music = \relative c' {
   e8 d ~ d d d c b c |
   d2 r4 a'8 b |
   % come
-  c b c4 c b a g |
+  c b c4 c8 b a g |
   b c a2 b8 c |
   % leave
   b4 b8 a b16 a g8 ~ g f16 e ~ ( |
