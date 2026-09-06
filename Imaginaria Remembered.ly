@@ -13,12 +13,15 @@ music = \relative c' {
   \partial 4
 
   % Pickup note goes here:
-  c'8 d8 |
+  %c'8 d8 |
+  a'8 b |
 
   % Music:
   % come with us
-  e8 d e4 e8 d c b |
-  a g a2 b8 c |
+  c b c4 c8 b a g |
+  b c a2 b8 c |
+  %e8 d e4 e8 d c b |
+  %a g a2 b8 c |
   % leave
   b4 b8 a b16 a g8~g f16 e ~( |
   e d c8 ~ c2) r8 c16 b |
@@ -27,10 +30,14 @@ music = \relative c' {
   g8 c c d e4 r |
   % Dream
   e8 d ~ d d d c b c |
-  d2 r4 a'8 b |
+  %d2 r4 a'8 b |
+  d2 r4 c8 d8 |
+
   % come
-  c b c4 c8 b a g |
-  b c a2 b8 c |
+  e8 d e4 e8 d c b |
+  a g a2 b8 c |
+  % c b c4 c8 b a g |
+  % b c a2 b8 c |
   % leave
   b4 b8 a b16 a g8 ~ g f16 e ~ ( |
   e d c8 ~ c2) r8 c16 b |
