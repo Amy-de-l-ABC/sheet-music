@@ -59,7 +59,7 @@ music = \relative c' {
   (?) [similar]
   
   % 6 measures no lyrics
-  \repeat unfold 23 { \skip 1 }
+  \repeat unfold 35 { \skip 1 }
   
   Dream -- ing of sail -- ing ships so
   high 
