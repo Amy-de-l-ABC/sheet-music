@@ -30,8 +30,8 @@ chimMelody = \relative c' {
 sharedChords = \relative c' {
   a4 c e |
   gis, b e |
-  g, b e |
-  f8, a c4 e |
+  g, c e |
+  fis8, a c4 e |
 }
 
 settings = {
