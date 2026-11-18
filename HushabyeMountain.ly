@@ -29,9 +29,9 @@ chimMelody = \relative c' {
 % Written in A minor, 3/4
 sharedChords = \relative c' {
   a4 c e |
-  gis, b e |
+  as, b e |
   g, c e |
-  fis,8 a c4 d |
+  ges,8 a c4 d |
   f, a c |
   e, a c |
   es,8 g a4 c |
