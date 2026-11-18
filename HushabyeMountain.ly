@@ -71,7 +71,8 @@ sharedChords = \relative c' {
   as, c e |
   g, c e |
   ges,8 a c4 d |
-  f a d |
+%
+  f8 a d4 e |
   e a c |
   e8 as b4 d |
   <a c e a>2.
