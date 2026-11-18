@@ -26,7 +26,7 @@ hushMelody = \relative c' {
   % Waiting to...
   c4 a c |
   e2 e4 |
-  e g g |
+  e gis gis |
   a2. |
 }
 
