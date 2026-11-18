@@ -32,10 +32,10 @@ sharedChords = \relative c' {
   as, b e |
   g, c e |
   ges,8 a c4 d |
-  f, a c |
+  f, a d |
   e, a c |
-  es,8 g a4 c |
-  e, a c |
+  es,8 ges a4 c |
+  e, as b |
 }
 
 settings = {
