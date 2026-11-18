@@ -56,14 +56,25 @@ chimMelody = \relative c' {
 
 % Written in A minor, 3/4
 sharedChords = \relative c' {
+%
   a4 c e |
-  as, b e |
+  as, c e |
   g, c e |
   ges,8 a c4 d |
+% 
   f, a d |
   e, a c |
   es,8 ges a4 c |
   e, as b |
+% 
+  a4 c e |
+  as, c e |
+  g, c e |
+  ges,8 a c4 d |
+  f a d |
+  e a c |
+  e8 as b4 d |
+  <a c e a>2.
 }
 
 settings = {
