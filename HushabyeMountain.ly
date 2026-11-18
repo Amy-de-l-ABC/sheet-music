@@ -32,23 +32,22 @@ settings = {
   \tempo 2. = 36
 }
 
-hushabye = \new PianoStaff <<
-    \new Staff {
+hushabye = \new Staff {
       \clef treble
       \settings
       \transpose a c''' \hushMelody
     }
-    \new Staff {
-      \clef bass
-      \settings
-      s2.*4
-    }
-  >>
 
 chim = \new Staff {
       \clef treble
       \settings
       \transpose a c'' \chimMelody
+    }
+
+chords = \new Staff {
+      \clef bass
+      \settings
+      s2.*4
     }
 
 \score {
