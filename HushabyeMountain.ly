@@ -7,11 +7,23 @@
 }
 
 % Written in A minor, 3/4
-melody = \relative c' {
+hushMelody = \relative c' {
   e2 f4 |
   e2 f4 |
   e4. d8 c4 |
   c a2
+}
+
+% Written in A minor, 3/4
+chimMelody = \relative c' {
+  c4 e8 e e4 |
+  e4 e8 e e4 |
+  e4. f e |
+  d r4 d |
+  d e d |
+  c d c |
+  b8 bes4. b8 |
+  e2 r4
 }
 
 settings = {
@@ -24,7 +36,7 @@ hushabye = \new PianoStaff <<
     \new Staff {
       \clef treble
       \settings
-      \transpose a c''' \melody
+      \transpose a c''' \hushMelody
     }
     \new Staff {
       \clef bass
@@ -33,11 +45,11 @@ hushabye = \new PianoStaff <<
     }
   >>
 
-hushabye = \new PianoStaff <<
+chim = \new PianoStaff <<
     \new Staff {
       \clef treble
       \settings
-      \transpose a c''' \melody
+      \transpose a c'' \chimMelody
     }
     \new Staff {
       \clef bass
@@ -48,7 +60,7 @@ hushabye = \new PianoStaff <<
 
 \score {
   \hushabye
-
+  \chim
   \layout { }
   \midi { }
 }
