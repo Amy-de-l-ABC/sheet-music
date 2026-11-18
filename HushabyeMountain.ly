@@ -58,7 +58,7 @@ chimMelody = \relative c' {
 sharedChords = \relative c' {
 %
   a4 c e |
-  as, c e |
+  as, b e |
   g, c e |
   ges,8 a c4 d |
 % 
@@ -68,7 +68,7 @@ sharedChords = \relative c' {
   e, as b |
 % 
   a4 c e |
-  as, c e |
+  as, b e |
   g, c e |
   ges,8 a c4 d |
 %
