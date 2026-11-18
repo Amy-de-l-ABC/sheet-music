@@ -22,7 +22,7 @@ chimMelody = \relative c' {
   d4 r d |
   d e d |
   c d c |
-  b8 bes4. b8 |
+  b8 bes4. b4 |
   e2 r4
 }
 
@@ -45,18 +45,11 @@ hushabye = \new PianoStaff <<
     }
   >>
 
-chim = \new PianoStaff <<
-    \new Staff {
+chim = \new Staff {
       \clef treble
       \settings
       \transpose a c'' \chimMelody
     }
-    \new Staff {
-      \clef bass
-      \settings
-      s2.*4
-    }
-  >>
 
 \score {
   <<
