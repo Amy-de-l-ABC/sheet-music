@@ -40,7 +40,7 @@ chimMelody = \relative c' {
   % Sweep is as...
   d e d |
   c d c |
-  b8 bes4. b4 |
+  b bes b |
   e2 r4
   % Chim Chiminey
   a,4 e'8 e e4 |
