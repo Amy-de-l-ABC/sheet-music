@@ -47,7 +47,7 @@ chim = \new Staff {
 chords = \new Staff {
       \clef bass
       \settings
-      s2.*4
+      r2.*4
     }
 
 %\score {
