@@ -20,8 +20,7 @@ settings = {
   \tempo 2. = 36
 }
 
-\score {
-  \new PianoStaff <<
+hushabye = \new PianoStaff <<
     \new Staff {
       \clef treble
       \settings
@@ -33,6 +32,23 @@ settings = {
       s2.*4
     }
   >>
+
+hushabye = \new PianoStaff <<
+    \new Staff {
+      \clef treble
+      \settings
+      \transpose a c''' \melody
+    }
+    \new Staff {
+      \clef bass
+      \settings
+      s2.*4
+    }
+  >>
+
+\score {
+  \hushabye
+
   \layout { }
   \midi { }
 }
