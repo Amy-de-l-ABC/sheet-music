@@ -54,6 +54,7 @@ chords = \new Staff {
   <<
     \hushabye
     \chim
+    \chords
   >>
   \layout { }
   \midi { }
