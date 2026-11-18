@@ -17,7 +17,7 @@ melody = \relative c' {
 settings = {
   \time 3/4
   \key c \minor
-  \tempo 2. = 42
+  \tempo 2. = 36
 }
 
 \score {
