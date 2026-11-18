@@ -11,7 +11,7 @@ melody = \relative c' {
 
   e2 f4 |
   e2 f4 |
-  e. d8 c |
+  e4. d8 c4 |
   c a2
 }
 
