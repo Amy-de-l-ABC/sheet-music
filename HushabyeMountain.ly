@@ -8,22 +8,50 @@
 
 % Written in A minor, 3/4
 hushMelody = \relative c' {
+  % Gentle breeze
   e2 f4 |
   e2 f4 |
   e4. d8 c4 |
-  c a2
+  c a2 |
+  % Softly blows
+  e2 d4 |
+  c2 a4 |
+  a4. b8 c4 |
+  b2 f4 |
+  % Fills the sails
+  e2 f4 |
+  e2 f4 |
+  e4. d8 c4 |
+  c a2 |
+  % Waiting to...
+  c4 a c |
+  e2 e4 |
+  e g g |
+  a2. |
 }
 
 % Written in A minor, 3/4
 chimMelody = \relative c' {
+  % Chim Chiminey
   a4 e'8 e e4 |
   e4 e8 e e4 |
   e f4. e8 |
   d4 r d |
+  % Sweep is as...
   d e d |
   c d c |
   b8 bes4. b4 |
   e2 r4
+  % Chim Chiminey
+  a4 e'8 e e4 |
+  e4 e8 e e4 |
+  e f4. e8 |
+  d4 r d |
+  % Luck will rub...
+  d e d |
+  c4. d8 c4 |
+  b c b4 |
+  a2. |
 }
 
 % Written in A minor, 3/4
