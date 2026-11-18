@@ -31,7 +31,7 @@ sharedChords = \relative c' {
   a4 c e |
   gis, b e |
   g, c e |
-  fis8, a c4 e |
+  fis8, a c4 d |
 }
 
 settings = {
