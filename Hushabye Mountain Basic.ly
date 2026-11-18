@@ -1,3 +1,4 @@
+
 \version "2.26.0"
 
 \header {
@@ -5,18 +6,33 @@
   composer = ""
 }
 
+% Written in A minor, 3/4
 melody = \relative c' {
-  \time 3/4
-  \key c \minor
-
   e2 f4 |
   e2 f4 |
   e4. d8 c4 |
   c a2
 }
 
+settings = {
+  \time 3/4
+  \key c \minor
+  \tempo 4 = 68
+}
+
 \score {
-  \new Staff \melody
+  \new PianoStaff <<
+    \new Staff {
+      \clef treble
+      \settings
+      \transpose a c''' \melody
+    }
+    \new Staff {
+      \clef bass
+      \settings
+      s2.*4
+    }
+  >>
   \layout { }
   \midi { }
 }
