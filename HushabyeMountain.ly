@@ -26,6 +26,12 @@ chimMelody = \relative c' {
   e2 r4
 }
 
+% Written in A minor, 3/4
+sharedChords = \relative c' {
+  <a c e>2. |
+  <gis b e>2. |
+}
+
 settings = {
   \time 3/4
   \key c \minor
@@ -47,7 +53,8 @@ chim = \new Staff {
 bassStaff = \new Staff {
       \clef bass
       \settings
-      r2.*4
+      %r2.*4
+      \transpose a c' \sharedChords
     }
 
 %\score {
