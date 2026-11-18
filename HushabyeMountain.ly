@@ -16,7 +16,7 @@ hushMelody = \relative c' {
   % Softly blows
   e'2 d4 |
   c2 a4 |
-  a4. b8 c4 |
+  a b c |
   b2 f'4 |
   % Fills the sails
   e2 f4 |
