@@ -44,7 +44,7 @@ chim = \new Staff {
       \transpose a c'' \chimMelody
     }
 
-chords = \new Staff {
+bassStaff = \new Staff {
       \clef bass
       \settings
       r2.*4
@@ -63,7 +63,7 @@ chords = \new Staff {
   <<
     \hushabye
     \chim
-%    \chords
+    \bassStaff
   >>
   \layout { }
   \midi { }
