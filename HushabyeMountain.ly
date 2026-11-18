@@ -19,7 +19,7 @@ chimMelody = \relative c' {
   a4 e'8 e e4 |
   e4 e8 e e4 |
   e f4. e8 |
-  d r4 d |
+  d4 r d |
   d e d |
   c d c |
   b8 bes4. b8 |
