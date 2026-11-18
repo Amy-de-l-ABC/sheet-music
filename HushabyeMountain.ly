@@ -16,7 +16,7 @@ hushMelody = \relative c' {
 
 % Written in A minor, 3/4
 chimMelody = \relative c' {
-  c4 e8 e e4 |
+  a4 e'8 e e4 |
   e4 e8 e e4 |
   e4. f e |
   d r4 d |
