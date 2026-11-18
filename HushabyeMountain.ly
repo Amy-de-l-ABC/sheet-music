@@ -52,10 +52,19 @@ chords = \new Staff {
 
 \score {
   <<
-    \hushabye
-    \chim
-    \chords
+    \new Staff { c'4 d'4 e'4 }
+    \new Staff { e'4 f'4 g'4 }
+    \new Staff { c4 d4 e4 }
   >>
   \layout { }
   \midi { }
 }
+%\score {
+%  <<
+%    \hushabye
+%    \chim
+%    \chords
+%  >>
+%  \layout { }
+%  \midi { }
+%}
