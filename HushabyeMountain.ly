@@ -59,8 +59,10 @@ chim = \new PianoStaff <<
   >>
 
 \score {
-  \hushabye
-  \chim
+  <<
+    \hushabye
+    \chim
+  >>
   \layout { }
   \midi { }
 }
