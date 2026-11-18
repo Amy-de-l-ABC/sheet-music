@@ -34,7 +34,7 @@ sharedChords = \relative c' {
   fis,8 a c4 d |
   f, a c |
   e, a c |
-  dis,8 f a4 c |
+  es,8 g a4 c |
   e, a c |
 }
 
