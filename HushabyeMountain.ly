@@ -18,7 +18,7 @@ hushMelody = \relative c' {
 chimMelody = \relative c' {
   a4 e'8 e e4 |
   e4 e8 e e4 |
-  e4. f e |
+  e f4. e8 |
   d r4 d |
   d e d |
   c d c |
